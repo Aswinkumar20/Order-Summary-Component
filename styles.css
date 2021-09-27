@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+}
+
+body {
+      background-image: url("images/pattern-background-desktop.svg");
+      background-repeat: no-repeat;
+}
+
+.center-body {
+      display:flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      width: 100vw;
+}
+
+.first-container {
+      background-color: hsl(0,0%, 100%);
+      width:350px;
+      height: 600px;
+      border: none;
+      border-radius: 30px;
+      text-align: center;
+      line-height: 1.6rem;
+}
+
+.first-container > img {
+      width: 100%;
+      border-radius: 30px 30px 0 0;
+}
+
+.Second-container {
+      margin: 0.5rem 2.3rem;
+}
+
+.Second-container h1 {
+      font-size: 1.5rem;
+      font-weight: 900;
+      color: hsl(223, 47%, 23%);
+      margin: 2rem;
+      margin-bottom: 1rem;
+}
+
+.Second-container p {
+      color: gray;
+}
+
+.third-container {
+      display: flex;
+      background-color: hsl(225, 100%, 98%);
+      height: 80px;
+      margin: 0.9rem 1.5rem;
+      border-radius: 10px;
+}
+
+.third-container img {
+      width: 40px;
+      height: 40px;
+      margin: 1.2rem 1rem;
+}
+
+.third-container .plan {
+      font-weight: 700;
+      color: hsl(223, 47%,23%);
+      margin: 0 0.3rem 0 0.3rem;
+}
+.third-container .price {
+      font-weight: 500;
+      color: gray;
+      margin: 0 0.3rem 0.7rem 0.3rem;
+}
+
+.third-container a {
+      margin:1.5rem 1rem 1.2rem 4.2rem;
+      font-size: 0.8rem;
+      font-weight: 700;
+}
+
+
+.fourth-container .btn {
+    width: 18rem;
+    height: 2.8rem;
+    font-size: 0.9rem;
+    margin: 08px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.10ms;
+}
+.btn-primary {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+    font-weight: 700;
+    box-shadow: 2px 4px 20px gray;
+}
+.btn-secondary {
+    background-color: hsl(225, 100%, 98%);
+    color: gray;
+    font-weight: 700;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    box-shadow: 5px 8px 20px 2px gray;
+    transform: scale(1.06);
+}
+.btn-secondary:hover {
+      color: darkslategray;
+      box-shadow: 5px 8px 20px 2px gray;
+      transform: scale(1.06);
+
+}
