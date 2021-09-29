@@ -17,6 +17,7 @@ body {
       align-items: center;
       height: 100vh;
       width: 100vw;
+
 }
 
 .first-container {
@@ -24,14 +25,14 @@ body {
       width:350px;
       height: 600px;
       border: none;
-      border-radius: 30px;
+      border-radius: 15px;
       text-align: center;
       line-height: 1.6rem;
 }
 
 .first-container > img {
       width: 100%;
-      border-radius: 30px 30px 0 0;
+      border-radius: 15px 15px 0 0;
 }
 
 .Second-container {
